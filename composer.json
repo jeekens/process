@@ -1,0 +1,26 @@
+{
+  "name": "jeekens/process",
+  "type": "library",
+  "version": "v0.0.1",
+  "keywords": [
+    "php",
+    "swoole",
+    "jeekens",
+    "process"
+  ],
+  "description": "jeekens process component",
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">7.2",
+    "jeekens/std": "~0.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jeekens\\Process\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "swoole/ide-helper": "~4.4.5"
+  }
+}
